@@ -47,8 +47,8 @@ newQouteButton.addEventListener('click',()=>{
         hideLoadingSpinner()
 
     }).catch((error)=>{
-        console.error("error:",error)
-        alert("somthing went wrong")
+        console.error(error)
+        console.log("somthing went wrong")
         hideLoadingSpinner()
     })
     
