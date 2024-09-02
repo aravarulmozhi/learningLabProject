@@ -1,11 +1,3 @@
-// click button should trigger fetch
-// once we receive the qoute 
-// show the qoute in the qoute area
-// 
-// qoute
-// author
-
-
 let newQouteButton=document.getElementById('new-qoute')
 let shareQouteButton=document.getElementById('share-qoute')
 let qoute=document.getElementById('qoute')
